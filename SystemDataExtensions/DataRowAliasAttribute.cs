@@ -8,6 +8,7 @@ namespace SystemDataExtensions
         public DataRowAliasAttribute(string ColumnName)
         {
             this.ColumnName = ColumnName;
+            //Test
         }
 
         public string ColumnName { get; protected set; }
